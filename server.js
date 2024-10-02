@@ -7,7 +7,7 @@ const express = require("express");
 const rbx = require("noblox.js");
 const app = express();
 
-const PORT = Math.floor(Math.random() * (65535 - 3000 + 1)) + 3000;
+#const PORT = Math.floor(Math.random() * (65535 - 3000 + 1)) + 3000;
 
 app.use(express.static("public"));
 
@@ -27,6 +27,6 @@ app.get("/ranker", (req, res) => {
     console.log(`Ranked ${User.name}!`)
 });
 
-const listener = app.listen(process.env.PORT, '127.0.0.1', () => {
+const listener = app.listen(process.env.PORT, () => {
   console.log("Your app is listening on port " + listener.address().port);
 });
