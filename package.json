@@ -1,0 +1,25 @@
+{
+  "name": "wicked_automation",
+  "version": "1.0.0",
+  "description": "",
+  "main": "server.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node server.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/mxsicz1/WICKED_Automation.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/mxsicz1/WICKED_Automation/issues"
+  },
+  "homepage": "https://github.com/mxsicz1/WICKED_Automation#readme",
+  "dependencies": {
+    "express": "^4.21.0",
+    "noblox.js": "^6.0.2"
+  }
+}
