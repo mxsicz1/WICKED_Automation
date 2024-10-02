@@ -7,7 +7,7 @@ const express = require("express");
 const rbx = require("noblox.js");
 const app = express();
 
-#const PORT = Math.floor(Math.random() * (65535 - 3000 + 1)) + 3000;
+//const PORT = Math.floor(Math.random() * (65535 - 3000 + 1)) + 3000;
 
 app.use(express.static("public"));
 
