@@ -7,7 +7,7 @@ services:
     startCommand: npm start
     envVars:
       - key: COOKIE
-        value: "testvalue"
+        value: "_|testvalue"
         
     routes:
     - type: rewrite
