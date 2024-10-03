@@ -24,7 +24,7 @@ app.get("/ranker", (req, res) => {
   
     rbx.setRank(groupId, parseInt(User), parseInt(Rank));
     res.json("Ranked!");
-    console.log(`Ranked ${User.name}!`)
+    console.log(`Ranked ${User.UserName}!`)
 });
 
 const listener = app.listen(process.env.PORT, () => {
